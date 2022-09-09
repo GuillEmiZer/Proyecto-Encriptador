@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Encriptador</title> 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="icon" href="imagenes/Frame 6.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css"> 
+        <script src="Script.js"></script>     
+    </head>    
+
+    <body>
+        <header>
+            
+            <img class="logoalura" src="imagenes/Logo.png"> 
+            <h1>Encriptador v1.0</h1>
+            
+        </header>
+
+        <main> 
+            
+            <div class="contenedor">
+                <section class="columnas">
+                    <div class="columna1">
+                        <div>  
+                            <p>⚠ SOLO LETRAS MINÚSCULAS Y SIN TILDES</p>              
+                            <textarea class="input-texto" required placeholder="Ingrese texto aquí" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="area-botones">
+                            <button class="boton-encriptar" onclick="BtnEncriptar()">Encriptar</button>
+                            <button class="boton-desencriptar" onclick="BtnDesencriptar()">Desencriptar</button>
+                        </div>
+                    </div>   
+
+                    
+                    
+                    <div class="columna2">
+                        <div class="contenido2">
+                            <div>
+                                
+                            </div>
+                            <div>
+                                <textarea class="output-texto" cols="30" rows="10>"></textarea>
+                            </div>
+                            <div class="area-boton-copiar">
+                                <button class="boton-copiar" onclick="copiar()">Copiar</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                </section>
+            </div>
+         
+           
+        </main>
+
+        <footer>
+            <div>
+                <p class="parrafo1">Incons by Freepik - Flaticon</p>
+            </div>
+            <div>
+                <p class="parrafo2">By Guillermo E. Zerda / Copyright © 2022</p>
+            </div>
+            <div>
+                <p class="parrafo3">
+                    <a href="https://github.com/GuillEmiZer" target="_blank"><img src="imagenes/silueta-del-logo-de-github-en-un-cuadrado.png"></i></a>
+                    <a href="https://www.linkedin.com/in/guillermo-e-zerda/" target="_blank"><img src="imagenes/logotipo-de-linkedin.png"></i></a>
+                    <a href="https://twitter.com/LiriamEmiliano" target="_blank"><img src="imagenes/signo-de-twitter.png"></i></a>
+                </p>
+            </div>  
+        </footer>
+                       
+    </body>
+
+    
+</html>
